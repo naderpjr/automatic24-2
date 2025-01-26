@@ -21,7 +21,6 @@ body {
 }
 
 .automation-intro {
-  /* border: 1px solid #000; */
   width: 80%;
   display: flex;
   align-items: center;
@@ -272,7 +271,6 @@ body {
   border: 1px solid #dcdcdc;
   border-top: none;
   background: #ffffff;
-  /* padding: 20px; */
   border-radius: 0 0 10px 10px;
 }
 
@@ -340,11 +338,11 @@ body {
 
 @media (max-width: 768px) {
   .tabs {
-    flex-wrap: wrap; /* تب‌ها به صورت چند ردیفی در صورت نیاز */
+    flex-wrap: wrap; 
   }
 
   .tab {
-    flex: 1 1 50%; /* دو تب در هر ردیف */
+    flex: 1 1 50%; 
     font-size: 1rem;
     padding: 12px;
   }
@@ -368,10 +366,9 @@ body {
   }
 }
 
-/* واکنش‌گرا برای موبایل */
 @media (max-width: 480px) {
   .tabs {
-    flex-direction: column; /* تب‌ها زیر هم قرار می‌گیرند */
+    flex-direction: column; 
   }
 
   .tab {
@@ -387,7 +384,7 @@ body {
   }
 
   .tab-content h3 {
-    font-size: 13px; /* کوچک کردن عنوان در موبایل */
+    font-size: 13px;
   }
 
   .tab-content p {
@@ -395,7 +392,7 @@ body {
   }
 
   .tab-content ul {
-    padding-left: 15px; /* کاهش فاصله برای موبایل */
+    padding-left: 15px; 
   }
 }
 
